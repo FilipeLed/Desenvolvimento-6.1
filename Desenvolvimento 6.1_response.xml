@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+<soap:Body xmlns:m="http://www.example.org/consultaClientes">
+  <m:consultaClienteResponse>
+    <m:Nome>Filipe</m:Nome>
+    <m:Sobrenome>Liberato Diniz</m:Sobrenome>
+    <m:Endereco>Avenida Caxangá, 2319</m:Endereco>
+    <m:Telefone>(81)9999-5555</m:Telefone>
+  </m:consultaClienteResponse>
+</soap:Body>
+
+</soap:Envelope>
